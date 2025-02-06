@@ -11,25 +11,25 @@
             float pib;
             int pontosturisticos;
 
-            printf("Digite o estado: ");
+            printf("Digite o estado(use - ao invés de espaço): ");
             scanf("%s", estado);
 
             printf("Codigo da carta: ");
             scanf("%s", codigocarta);
 
-            printf("Nome da cidade: ");
+            printf("Nome da cidade(use - ao invés de espaço): ");
             scanf("%s", nomedacidade);
 
-            printf("população: ");
+            printf("População: ");
             scanf("%d", &populacao);
             
-            printf("area: ");
+            printf("Area em Km²: ");
             scanf("%f", &area);
             
-            printf("pib: ");
+            printf("Pib: ");
             scanf("%f", &pib);
             
-            printf("pontos turisticos:S ");
+            printf("Pontos Turisticos: ");
             scanf("%d", &pontosturisticos);
 
 
