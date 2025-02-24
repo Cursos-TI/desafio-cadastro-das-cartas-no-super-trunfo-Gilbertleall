@@ -14,7 +14,7 @@ int main() {
     printf("Codigo da carta: ");
     scanf("%s", codigocarta);
     
-    printf("Nome da cidade (use - ao invés de espaço): ");
+    printf("Nome da cidade : ");
     scanf(" %[^\n]", nomedacidade);  
     
     printf("População: ");
